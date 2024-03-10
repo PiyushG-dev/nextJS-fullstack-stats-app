@@ -1,33 +1,32 @@
+@font-face {
+  font-family: Aeo-pro;
+  src: url(../public/AeonikPro-Regular.woff2);
+  font-display: fallback;
+}
+@font-face {
+  font-family: Aeo-fono;
+  src: url(../public/AeonikFono-Regular.woff2);
+  font-display: fallback;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-primary: #19191C;
+  --color-primary: #FFFCFD;
+  --color-secondary:#FD356E;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+*{
+  padding: 0rem;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body{
+  width: 100%;
+  background: var(--bg-primary);
+  color: var(--color-primary);
 }
