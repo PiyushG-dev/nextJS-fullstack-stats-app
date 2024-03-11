@@ -1,0 +1,30 @@
+.container{
+    padding: 1rem 3rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav_right a{
+    color: var(--color-fourth);
+    font-size: 1rem;
+    font-weight: 300;
+    transition: color .25s ease-in-out;
+}
+
+.nav_right a:hover{
+    color: var(--color-second);
+}

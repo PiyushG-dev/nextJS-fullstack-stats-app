@@ -14,9 +14,12 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #19191C;
-  --color-primary: #FFFCFD;
-  --color-secondary:#FD356E;
+  --bg-first: #19191C;
+  --color-first: #FFFCFD;
+  --color-second:#FD356E;
+  --color-third:#ADADB0;
+  --color-fourth:#D2D2D2;
+  --border-color:#9797973C;
 }
 
 *{
@@ -27,6 +30,6 @@
 
 body{
   width: 100%;
-  background: var(--bg-primary);
-  color: var(--color-primary);
+  background: var(--bg-first);
+  color: var(--color-first);
 }
