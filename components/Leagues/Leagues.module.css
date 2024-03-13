@@ -24,6 +24,14 @@
     width: 7rem;
 }
 
-.league:last-child{
+.league:nth-child(3){
+    width: 10rem;
+}
+
+.league:nth-child(5){
     width: 5rem;
+}
+
+.league:nth-child(2){
+    width: 6rem;
 }
