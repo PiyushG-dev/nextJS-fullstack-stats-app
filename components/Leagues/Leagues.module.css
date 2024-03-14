@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 5vw;
 }
 
 .leagues_container{
@@ -15,23 +15,26 @@
 }
 
 .wrapper h2{
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-family: Aeo-pro;
     color: var(--color-fourth);
+    width: 50%;
+    text-align: center;
+    line-height: 3vw;
 }
 
 .league{
-    width: 7rem;
+    width: 7vw;
 }
 
 .league:nth-child(3){
-    width: 10rem;
+    width: 10vw;
 }
 
 .league:nth-child(5){
-    width: 5rem;
+    width: 5vw;
 }
 
 .league:nth-child(2){
-    width: 6rem;
+    width: 6vw;
 }

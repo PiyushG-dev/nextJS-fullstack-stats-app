@@ -1,6 +1,5 @@
 import React from "react";
-import Hero from "@/components/Hero/Hero";
-import Leagues from "@/components/Leagues/Leagues";
+import { Hero, Leagues } from "@/components";
 
 const Home = () => {
   return (

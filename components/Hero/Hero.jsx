@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import CustomButton from "../CustomButton/CustomButton";
+import { CustomButton } from "@/components";
 import { heroText } from "@/constants";
 import figure1 from "@/public/figure1.png";
 import figure2 from "@/public/figure2.png";
@@ -15,7 +15,7 @@ const Hero = () => {
         <h1>{heroText.heading}</h1>
         <div className={styles.info_container}>
           <p>{heroText.info}</p>
-          <CustomButton text="Get Started" />
+          <CustomButton text="Get Started" styling="bg-color-second" />
         </div>
       </div>
       <Image src={dash} alt="dashboard" className={styles.dash} />

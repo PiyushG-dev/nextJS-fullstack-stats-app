@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import Image from "next/image";
 import logo from "@/public/logo.png";
 import { navLinks } from "@/constants";
-import CustomButton from "../CustomButton/CustomButton";
+import { CustomButton } from "@/components";
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
             {link.title}
           </a>
         ))}
-        <CustomButton text="Get started" />
+        <CustomButton text="Get started" styling="bg-color-second" />
       </div>
     </div>
   );
