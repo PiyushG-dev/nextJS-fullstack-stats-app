@@ -1,11 +1,13 @@
 .container{
     padding: 1rem 3rem;
+    background-color: var(--bg-first);
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     position: fixed;
     border-bottom: 1px solid var(--border-color);
+    z-index: 99;
 }
 
 .logo{
@@ -18,13 +20,13 @@
     gap: 1.5rem;
 }
 
-.nav_right a{
+.navLink{
     color: var(--color-fourth);
     font-size: 1rem;
     font-weight: 300;
     transition: color .25s ease-in-out;
 }
 
-.nav_right a:hover{
+.navLink:hover{
     color: var(--color-second);
 }

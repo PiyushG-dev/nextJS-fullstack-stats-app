@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import { CustomButton } from "@/components";
+import { CustomButton } from "@/components/export";
 import { heroText } from "@/constants";
 import figure1 from "@/public/figure1.png";
 import figure2 from "@/public/figure2.png";

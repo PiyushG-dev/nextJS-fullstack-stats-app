@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Leagues } from "@/components";
+import { Hero, Leagues } from "@/components/export";
 
 const Home = () => {
   return (
