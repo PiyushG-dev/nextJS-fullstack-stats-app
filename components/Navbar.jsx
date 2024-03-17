@@ -6,7 +6,7 @@ import { ModeToggle } from "./ui/toggle";
 
 const Navbar = () => {
   return (
-    <div className="border-b-[1px] py-5 px-8 2xl:px-0 2xl:flex 2xl:justify-center">
+    <div className="fixed w-full border-b-[1px] py-3 px-14 2xl:px-0 2xl:flex 2xl:justify-center">
       <div className="flex justify-between items-center 2xl:w-[1536px]">
         <div className="flex items-center gap-6">
           <Link href="/" className="text-base">
